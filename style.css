@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.background {
+ background-color: #ff88bb;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  background-color: white;
+  
+}
+
+.nomes {
+ display: flex;
+ justify-content: flex-start;
+}
+
+.container {
+    position: absolute;
+    right: 550px;
+    top: 50px;
+
+}
+
+.icon-coracao {
+    color: #FF33AD;
+}
+
+.icon-bag {
+    color: #FF33AD;
+}
+
+.icon-pesquisa {
+    color: #FF33AD;
+}
+
+.icon-user {
+    color: #FF33AD;
+}
+
+.meio {
+ background-color: #FF33AD;
+}
+
+.skipper {
+position: absolute;
+width: 207px;
+height: 50px;
+left: 330px;
+top: 1150px;
+
+background: #FFD3E6;
+box-shadow: 0px 3.25982px 3.25982px rgba(0, 0, 0, 0.25);
+border-radius: 16.2991px;
+border: 0px;
+}
+
+.number {
+    color: #FF33AD;
+}
+
+/*justify-content: space-around;
+  padding-top: 1rem;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  position: fixed;
+  transition: all .35% ease;
+  background-color:white;
+  padding: 14 px 14%;
+  */
